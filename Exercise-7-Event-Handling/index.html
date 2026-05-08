@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling</title>
+
+    <style>
+        body{
+            font-family:Arial;
+            text-align:center;
+            margin-top:100px;
+        }
+
+        button{
+            padding:15px 25px;
+            background:black;
+            color:white;
+            border:none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 id="heading">Welcome</h1>
+
+<button onclick="changeText()">Click Me</button>
+
+<script>
+
+function changeText(){
+    document.getElementById("heading").innerHTML = "Button Clicked";
+}
+
+</script>
+
+</body>
+</html>
